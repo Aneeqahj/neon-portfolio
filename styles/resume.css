@@ -54,6 +54,11 @@ body {
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Container */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .border {
   position: relative;
   width: 400px;
