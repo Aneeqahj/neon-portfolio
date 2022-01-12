@@ -80,15 +80,15 @@ body {
   left: -3px;
   background: linear-gradient(
     45deg,
-    #fc0090,
-    #0000ff,
-    #00ff00,
-    #ff0000,
-    #ffff00,
-    #fc0090,
-    #0000ff,
-    #00ff00,
-    #ffff00
+    #f0d9e7,
+    #ff94cc,
+    #a239ea,
+    #5c33f6,
+    #1e3163,
+    #2d46b9,
+    #f037a5,
+    #b4aee8,
+    #ff005c
   );
   background-size: 300%;
   animation: border 20s linear infinite;

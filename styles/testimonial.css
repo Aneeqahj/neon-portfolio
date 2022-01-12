@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 1200px;
+  width: 90%;
+  font-family: "Orbitron", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+/* NAVBAR */
+.navbar-container {
+  min-width: 1200px;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.nav {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  background: #f4daf5;
+  color: #cc5fed;
+  border-radius: 0%;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav:hover {
+  transform: scale(1.1);
+  background-color: black;
+  border: solid 3px #cc5fed;
+  box-shadow: 0px 0px 20px #cc5fed;
+}
+
+.active-nav {
+  background: black;
+  border-radius: 0%;
+  width: 120px;
+  height: 30px;
+  border: solid 3px #cc5fed;
+  box-shadow: 0px 0px 20px #cc5fed;
+}
+/*TESTIMONIALS------------------------------------------------------------------------------------------------ */
+.container {
+  display: flex;
+  height: 100vh;
+  margin: 20px 70px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-card {
+  min-height: 400px;
+  width: 450px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  margin: 10px;
+  justify-content: space-between;
+  -webkit-box-reflect: below 2px
+    linear-gradient(transparent, transparent, #0004);
+  opacity: 0.3;
+  transform-origin: center;
+  transform: perspective(800px) rotateY(25deg);
+  transition: 0.5s;
+}
+.text {
+  padding: 2.2em;
+  line-height: 1.7em;
+  position: relative;
+  font-size: 18px;
+  color: #cc5fed;
+}
+.image {
+  background-color: tomato;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background: no-repeat center/cover
+    url(https://sm.ign.com/t/ign_za/cover/b/black-wido/black-widow_z5hu.200.jpg);
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.image1 {
+  background-color: tomato;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background: no-repeat center/cover
+    url(https://www.indiewire.com/wp-content/uploads/2021/03/winter-soldier.png?resize=800,481);
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.image2 {
+  background-color: tomato;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background: no-repeat center/cover
+    url(https://images2.minutemediacdn.com/image/fetch/w_850,h_560,c_fill,g_auto,f_auto/https%3A%2F%2Fnetflixlife.com%2Ffiles%2Fimage-exchange%2F2020%2F06%2Fie_15676-1-850x560.jpeg);
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.image3 {
+  background-color: tomato;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background: no-repeat center/cover
+    url(https://st1.bollywoodlife.com/wp-content/uploads/2019/01/Iron-Man-1.jpg?impolicy=Medium_Widthonly&w=800);
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background: linear-gradient(45deg, #ff94cc 30%, #f037a5 100%);
+  height: 140px;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+}
+
+.quote {
+  font-size: 400%;
+  float: right;
+  opacity: 0.1;
+  transform: rotate(10deg) translate(-10px, -40px);
+  color: #4d3fa3;
+}
+
+.person {
+  color: white;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  transform: translate(-50%, -100%);
+  font-size: 1.2rem;
+}
+
+.testimonial-card:hover {
+  opacity: 1;
+  transform: perspective(800px) rotateY(0deg);
+}

@@ -56,7 +56,7 @@ body {
 /* PROJECT CONTAINER */
 .back-img {
   width: 830px;
-  height: 500px;
+  height: 580px;
   background-image: url(https://images.unsplash.com/photo-1634928383272-fb29837c6003?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
   padding: 20px;
   object-fit: contain;
@@ -106,7 +106,7 @@ a {
 .border {
   position: relative;
   width: 830px;
-  height: 500px;
+  height: 580px;
   background: #111;
   margin: 100px auto;
 }
@@ -122,15 +122,15 @@ a {
   left: -3px;
   background: linear-gradient(
     45deg,
-    #fc0090,
-    #0000ff,
-    #00ff00,
-    #ff0000,
-    #ffff00,
-    #fc0090,
-    #0000ff,
-    #00ff00,
-    #ffff00
+    #f0d9e7,
+    #ff94cc,
+    #a239ea,
+    #5c33f6,
+    #1e3163,
+    #2d46b9,
+    #f037a5,
+    #b4aee8,
+    #ff005c
   );
   background-size: 300%;
   animation: border 20s linear infinite;
