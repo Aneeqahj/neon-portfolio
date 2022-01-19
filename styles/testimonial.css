@@ -142,7 +142,7 @@ body {
   border-radius: 50%;
   border: 5px solid white;
   background: no-repeat center/cover
-    url(https://static01.nyt.com/images/2008/04/20/arts/20carr-600.jpg?quality=75&auto=webp&disable=upscale);
+    url(https://static01.nyt.com/images/2008/04/20/arts/20carr-600.jpg?quality=75&auto=webp&disable=upscale );
   position: absolute;
   top: -50%;
   left: 50%;

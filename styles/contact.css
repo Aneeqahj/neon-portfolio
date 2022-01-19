@@ -221,8 +221,8 @@ textarea {
 
 .circ:nth-child(4) {
   animation-delay: 6s;
-  top: 130%;
-  left: 60%;
+  top: 86%;
+  left: 27%;
 }
 
 .circ:nth-child(5) {
@@ -234,7 +234,7 @@ textarea {
 .circ:nth-child(6) {
   animation-delay: 10s;
   top: 50%;
-  left: 35%;
+  left: 27%;
 }
 
 .circ:nth-child(7) {
@@ -245,7 +245,7 @@ textarea {
 
 .circ:nth-child(8) {
   animation-delay: 10s;
-  top: 15%;
+  top: 11%;
   left: 60%;
 }
 
